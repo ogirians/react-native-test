@@ -3,7 +3,6 @@ import React from 'react'
 
 const App = () => {
   return (
-    
       <View style={[styles.container, {flexDirection :'column'}]}>
         <Text style={styles.center}>ini app tengah </Text>
         <Text style={styles.left}>ini app tengah </Text>
