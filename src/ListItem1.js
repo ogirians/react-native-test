@@ -1,8 +1,10 @@
-import { Text, StyleSheet, Button, View, Alert, Touchable, TouchableOpacity } from 'react-native'
+import { Text, StyleSheet, Button, View, Alert, Touchable, TouchableOpacity, Dimensions } from 'react-native'
 import React, { Component } from 'react'
 
 function coba_alert() {
-    alert('coba alert');
+  const lebar = Dimensions.get("screen").width;
+  const tinggi = Dimensions.get("screen").height;
+  alert('dimensi : lebar' + lebar + 'tingii : ' + tinggi);
 }
 
 export default class ListItem1 extends Component {
